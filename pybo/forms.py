@@ -1,7 +1,7 @@
 from django import forms
 
 from pybo.models import Question, Answer, Comment
-
+from django.forms import ModelForm
 
 class QuestionForm(forms.ModelForm):
     class Meta:

@@ -1,5 +1,8 @@
+from django.template import base
 from django.urls import path
 from .views import base_views, question_views, answer_views, comment_views, vote_views
+from django.conf.urls.static import static
+from config.settings.base import *
 
 app_name = 'pybo'
 
